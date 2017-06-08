@@ -3,6 +3,7 @@ lottery_player_dict = {
     'numbers': (5, 9, 12, 3, 1, 2)
 }
 
+
 class LotteryPlayer:
     def __init__(self, name):
         self.name = name,
@@ -11,11 +12,13 @@ class LotteryPlayer:
     def total(self):
         return sum(self.numbers)
 
+
 player_one = LotteryPlayer("Rolf")
 player_two = LotteryPlayer("John")
 # print (player_two)
 
 ##
+
 
 class Student:
     def __init__(self, name, school):
@@ -29,6 +32,7 @@ class Student:
     @staticmethod
     def go_to_school():
         print ("I am going to school!")
+
 
 anna = Student("Anna", "MIT")
 anna.marks.append(90)
